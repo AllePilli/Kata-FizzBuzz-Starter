@@ -10,4 +10,11 @@ public class CodeShouldGoHere {
 
         return result;
     }
+
+    public static void main(String[] args) {
+        CodeShouldGoHere codeShouldGoHere = new CodeShouldGoHere();
+        for (int number = 1; number <= 100; number++) {
+            System.out.println(codeShouldGoHere.fizzBuzz(number));
+        }
+    }
 }
