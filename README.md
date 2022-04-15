@@ -1,4 +1,4 @@
-# TDD PHP
+# Starter Projects Kata
 
 This sample project helps you to get started with the FizzBuzz TDD kata
 # FizzBuzz
