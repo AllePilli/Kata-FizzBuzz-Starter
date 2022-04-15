@@ -10,7 +10,7 @@ public class TestsShouldGoHere {
 
     @Test
     public void numbersCase() {
-        int[] numbers = {1, 2, 4, 6, 52, 86, 98};
+        int[] numbers = {1, 2, 4, 7, 52, 86, 98};
         for (int number: numbers) {
             String result = codeShouldGoHere.fizzBuzz(number);
             assertThat(result, equalTo("" + number));
